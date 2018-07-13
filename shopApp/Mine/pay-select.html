@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">选择支付方式测试</h1>
+		</header>
+		
+		<div class="mui-content">
+		    
+		    <button id="btnSel" type="button" class="mui-btn mui-btn-blue mui-btn-block">选择支付方式</button>
+		</div>
+		
+	 <!--<div id="wm_selectPayType" class="box mui-popover mui-popover-action mui-popover-bottom">
+	 	<div class="mui-content">
+			<h5 style="text-align: center; margin-top: 10px;">选择支付方式</h5>
+			<ul class="mui-table-view mui-table-view-radio">
+				<li id="alipay" class="mui-table-view-cell mui-selected">
+					<a class="mui-navigate-right">
+						支付宝
+					</a>
+				</li>
+				<li id= "wxpay" class="mui-table-view-cell ">
+					<a class="mui-navigate-right">
+						微信
+					</a>
+				</li>
+			</ul>	
+			<button id="btnPay" type="button" class="mui-btn mui-btn-blue mui-btn-block">确认支付</button>
+	 	</div> 
+	 </div>			-->
+	
+	 
+	<script src="../js/mui.min.js" charset="UTF-8"></script>
+	<script src="../js/own.js" charset="UTF-8"></script>
+	<script src="../js/ajax.js" charset="UTF-8"></script>
+	<script  src="../js/coder.js" charset="UTF-8"></script>
+	<script  src="../js/units.js" charset="UTF-8"></script>		
+	<script  src="../js/pay-select.js" charset="UTF-8"></script>	
+	<script >
+		
+mui.init({
+		swipeBack: true
+});
+
+mui.plusReady(function(){
+	
+	createPayTypeSelect(onPayType);
+	
+	document.getElementById("btnSel").addEventListener('tap',function(e){
+		
+		mui('#wm_selectPayType').popover('toggle');		
+		
+		
+	});
+	
+});
+
+function onPayType(payType)
+{
+	mui.alert(payType);
+	
+}		
+		
+		
+	</script>
+	</body>
+
+</html>

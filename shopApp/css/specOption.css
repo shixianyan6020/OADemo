@@ -1,0 +1,24 @@
+.specGoodImg {
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 10px;
+}			
+
+.mui-table {
+				width: 70%;
+				float: right;
+			}
+						
+.specGoodprice {
+				color: red;
+			}
+
+.spec-content{
+	
+	background-color: white;
+}
+
+.specBtn{
+	margin-left: 10px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>VIP升级</title>
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+
+		<!--loading页结束-->
+		<style>
+			.mui-input-row {
+				padding: 0px 1%;
+				padding-top: 5px;
+			}
+			
+			input[type=color],
+			input[type=date],
+			input[type=datetime-local],
+			input[type=datetime],
+			input[type=email],
+			input[type=month],
+			input[type=number],
+			input[type=password],
+			input[type=search],
+			input[type=tel],
+			input[type=text],
+			input[type=time],
+			input[type=url],
+			input[type=week],
+			select,
+			textarea {
+				line-height: 21px;
+				width: 100%;
+				height: 50px;
+				margin-bottom: 2px;
+				padding: 10px 15px;
+				-webkit-user-select: text;
+				border: 1px solid rgba(0, 0, 0, .2);
+				border-radius: 3px;
+				outline: 0;
+				background-color: #fff;
+				-webkit-appearance: none
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+
+		<div class="mui-content">
+			<p>升级vip会从您预充值余额中扣除398元,如果余额不足,请先充值!</p>
+			<div class="mui-input-row">
+
+				<input type="text" class="mui-input-clear"  id="recommendMobile" placeholder="推荐人手机号码：">
+				<button type="button" id='btnOK' class="mui-btn mui-btn-danger mui-btn-block" style=" margin: 0% 1%; width: 99%;">升级VIP</button>
+			</div>
+		</div>
+	<script src="../js/mui.min.js" charset="UTF-8"></script>
+	<script src="../js/ajax.js" charset="UTF-8"></script>
+	<script  src="../js/units.js" charset="UTF-8"></script>
+	<script src="../js/own.js" charset="UTF-8"></script>
+	<script  src="../js/page/upGrade.js" charset="UTF-8"></script>
+	</body>
+
+</html>

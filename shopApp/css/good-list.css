@@ -1,0 +1,62 @@
+.good-bgDiv {
+	border: 1px solid rgba(204, 204, 204, 0.7);
+	border-radius: 5px;
+	background-color: white;
+	width: 100%;
+}
+/*图片显示的时候设置为自动 因为 从服务器来的图片大小相同*/
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .good-img {
+	line-height: auto;
+	max-width: auto;
+	height: auto;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.mui-table-view-cell {
+	margin-bottom: 10px;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .goodBodyDiv {
+	margin-top: 2px;
+	margin-bottom: 5px;
+	height: auto;
+	text-align: left;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .goodBodyDiv p {
+	white-space: pre;
+	color: black;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .goodBodyDiv.good-name {
+	height: 50px;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .goodBodyDiv .vip-price {
+	margin-top: 12px;
+	font-size: 1.2em;
+	float: left;
+	color: red;
+	margin-bottom: 10px;
+	
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .goodBodyDiv .store-price {
+	margin-top: 12px;
+	font-size: 1.2em;
+	float: left;
+	margin-left: 7%;
+	color: red;
+	margin-bottom: 10px;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body .sale-price {
+	margin-top: 12px;
+	float: right;
+	font-size: 1.1em;
+	margin-right: 7%;
+	text-decoration: line-through;
+}
+

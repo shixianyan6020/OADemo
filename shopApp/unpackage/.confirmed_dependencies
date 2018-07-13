@@ -1,0 +1,652 @@
+{
+  "baritemHtml/home.html": {
+    "resources": [
+      "js/load.js",
+      "js/md5.js",
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "img/slider/slider2.jpg",
+      "img/slider/slider1.jpg",
+      "img/slider/slider3.jpg",
+      "img/slider/slider4.png",
+      "/img/1.jpg",
+      "img/1.jpg",
+      "js/page/home.js",
+      "fonts/mui.ttf",
+      "img/upload/ylh-icon1.png",
+      "img/upload/ylh-icon2.png",
+      "img/upload/ylh-icon3.png",
+      "img/upload/ylh-icon6.png",
+      "img/upload/ylh-icon7.png",
+      "img/upload/ylh-icon4.png",
+      "img/upload/ylh-icon8.png",
+      "img/upload/ylh-icon5.png",
+      "img/upload/2.jpg",
+      "js/coder.js",
+      "img/slider/slider4.jpg",
+      "img/slider/slider5.jpg",
+      "baritemHtml/home.css",
+      "img/jump.gif",
+      "css/good-list.css",
+      "js/units.js",
+      "css/jquery-weui.css",
+      "css/weui.min.css"
+    ],
+    "refer": [
+      "Home/product-detail-needtem.html",
+      "Home/product-detail-tem.html"
+    ]
+  },
+  "index.html": {
+    "resources": [
+      "baritemHtml/home.html",
+      "css/own.css",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "fonts/iconfont.ttf",
+      "baritemHtml/category.html",
+      "index.js",
+      "/js/units.js",
+      "js/units.js",
+      "fonts/mui.ttf",
+      "js/own.js"
+    ],
+    "refer": [
+      "baritemHtml/home.html",
+      "template-main.html",
+      "baritemHtml/mine.html",
+      "baritemHtml/xinyuandan.html",
+      "Mine/login.html",
+      "baritemHtml/category.html",
+      "baritemHtml/cart.html",
+      "product-detail-tem.html",
+      "Home/product-detail-needtem.html",
+      "category/category-detail-needtem.html",
+      "Mine/my-dingdan-needtem.html",
+      "Mine/change-address-needtem.html",
+      "order/confimOrder.html",
+      "order/orderConfim.html",
+      "Mine/my-order-needtem2.html",
+      "Mine/test.html",
+      "Mine/register-needtem.html",
+      "Mine/changepsd-needtem.html",
+      "Mine/my-account-needtem.html",
+      "Mine/setting.html",
+      "Mine/my-vip-needtem.html",
+      "Mine/my-favirate-needtem.html",
+      "store/store.html",
+      "store/store-main.html",
+      "Home/product-detail-tem.html"
+    ]
+  },
+  "template-main.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "img/jump.gif",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "fonts/iconfont.ttf"
+    ]
+  },
+  "baritemHtml/mine.html": {
+    "resources": [
+      "img/bg.jpeg",
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "fonts/iconfont.ttf",
+      "js/load.js",
+      "js/page/mine.js",
+      "js/md5.js",
+      "js/units.js",
+      "img/touxiang.jpg",
+      "baritemHtml/home.html",
+      "js/page/index.js",
+      "img/cbd.jpg",
+      "Mine/change-address-needtem.html"
+    ],
+    "refer": [
+      "baritemHtml/category.html",
+      "baritemHtml/cart.html",
+      "order/orderConfim.html",
+      "Mine/pay-select.html",
+      "Mine/change-address-needtem.html"
+    ]
+  },
+  "baritemHtml/xinyuandan.html": {
+    "resources": [
+      "js/own.js"
+    ]
+  },
+  "baritemHtml/cart.html": {
+    "resources": [
+      "js/wl_ajax.js",
+      "img/jump.gif",
+      "js/load.js",
+      "js/md5.js",
+      "js/ajax.js",
+      "js/own.js",
+      "css/own.css",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/units.js",
+      "baritemHtml/cart.js",
+      "js/page/cart.js",
+      "fonts/iconfont.ttf",
+      "img/50.jpg",
+      "fonts/mui.ttf",
+      "js/coder.js",
+      "img/3.jpg",
+      "js/spec-select.js",
+      "css/specOption.css"
+    ],
+    "refer": [
+      "order/orderConfim.html"
+    ]
+  },
+  "baritemHtml/category.html": {
+    "resources": [
+      "js/load.js",
+      "js/md5.js",
+      "img/jump.gif",
+      "js/own.js",
+      "js/ajax.js",
+      "index.html",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "js/page/category.js",
+      "js/coder.js",
+      "js/units.js"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "product-detail-tem.html": {
+    "resources": [
+      "js/own.js",
+      "img/jump.gif",
+      "fonts/mui.ttf",
+      "css/own.css",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "Home/product-detail-needtem.html",
+      "fonts/iconfont.ttf"
+    ],
+    "refer": [
+      "Home/product-detail-needtem.html"
+    ]
+  },
+  "Mine/login.html": {
+    "resources": [
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "fonts/iconfont.ttf",
+      "js/load.js",
+      "js/md5.js",
+      "js/units.js",
+      "js/page/login.js"
+    ],
+    "refer": [
+      "Mine/register-needtem.html"
+    ]
+  },
+  "category/category-detail-needtem.html": {
+    "resources": [
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "img/bg.jpeg",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "js/load.js",
+      "js/md5.js",
+      "img/jump.gif",
+      "js/page/good-list.js",
+      "js/coder.js",
+      "js/units.js",
+      "css/good-list.css"
+    ]
+  },
+  "Home/product-detail-needtem.html": {
+    "resources": [
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "js/load.js",
+      "js/md5.js",
+      "img/touxiang.jpg",
+      "fonts/mui.ttf",
+      "fonts/iconfont.ttf",
+      "img/3.jpg",
+      "img/detail/1.jpg",
+      "img/detail/3.jpg",
+      "img/detail/2.jpg",
+      "img/detail/0.jpg",
+      "img/detail/4.jpg",
+      "Home/product.js",
+      "js/units.js",
+      "img/bg.jpeg",
+      "img/jump.gif",
+      "img/1.jpg",
+      "js/coder.js",
+      "js/productSpecSelect.js",
+      "css/specOption.css",
+      "js/spec-select.js",
+      "img/44.jpg"
+    ],
+    "refer": [
+      "order/orderConfim.html"
+    ]
+  },
+  "Mine/change-address-needtem.html": {
+    "refer": [
+      "Mine/address.html"
+    ],
+    "resources": [
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "fonts/iconfont.ttf",
+      "js/load.js",
+      "js/md5.js",
+      "Mine/address-mgr.js",
+      "js/coder.js",
+      "js/ajax.js",
+      "js/units.js",
+      "fonts/mui.ttf",
+      "img/jump.gif"
+    ]
+  },
+  "Mine/address.html": {
+    "resources": [
+      "js/mui.picker.min.js",
+      "css/mui.picker.min.css",
+      "js/city.data-3.js",
+      "fonts/mui.ttf",
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "fonts/iconfont.ttf",
+      "Mine/address.js",
+      "js/coder.js",
+      "js/load.js",
+      "Mine/address-mgr.js",
+      "js/ajax.js",
+      "js/units.js",
+      "js/md5.js",
+      "img/jump.gif",
+      "js/mui.picker.js",
+      "js/mui.poppicker.js"
+    ]
+  },
+  "order/confimOrder.html": {
+    "resources": [
+      "order/css/feedback.css",
+      "order/js/mui.view.js",
+      "order/js/feedback.js"
+    ]
+  },
+  "order/orderConfim.html": {
+    "resources": [
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "js/load.js",
+      "js/units.js",
+      "js/md5.js",
+      "js/wl_ajax.js",
+      "fonts/mui.ttf",
+      "fonts/iconfont.ttf",
+      "img/50.jpg",
+      "order/order-confim.js",
+      "img/jump.gif",
+      "js/coder.js",
+      "js/pay-select.js",
+      "js/pay-option.js",
+      "css/app.css"
+    ],
+    "refer": [
+      "Mine/address.html"
+    ]
+  },
+  "Mine/my-dingdan-needtem.html": {
+    "resources": [
+      "Mine/order-list.js",
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "js/load.js",
+      "js/units.js",
+      "js/md5.js",
+      "js/wl_ajax.js",
+      "img/50.jpg",
+      "js/coder.js",
+      "css/app.css",
+      "img/jump.gif",
+      "Mine/css/order-list.css",
+      "js/order-unit.js",
+      "js/mui.pullToRefresh.js",
+      "js/mui.pullToRefresh.material.js",
+      "js/tab-pull-refresh-item.js",
+      "js/pay-select.js",
+      "js/pay-option.js",
+      "img/cbd.jpg"
+    ],
+    "refer": [
+      "order/order-detail.html"
+    ]
+  },
+  "Mine/my-order-needtem2.html": {
+    "resources": [
+      "css/own.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "img/50.jpg"
+    ]
+  },
+  "Mine/test.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "Mine/test.js",
+      "js/own.js",
+      "js/coder.js",
+      "js/ajax.js",
+      "js/load.js",
+      "js/units.js",
+      "js/md5.js",
+      "js/wl_ajax.js"
+    ]
+  },
+  "Mine/register-needtem.html": {
+    "resources": [
+      "js/load.js",
+      "js/md5.js",
+      "css/app.css",
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "js/own.js",
+      "js/ajax.js",
+      "js/page/register.js",
+      "js/units.js",
+      "Mine/register-needtem.html",
+      "css/own.css",
+      "css/iconfont.css",
+      "fonts/mui.ttf",
+      "Mine/address.js",
+      "js/mui.picker.min.js",
+      "js/coder.js",
+      "css/mui.picker.min.css",
+      "js/mui.picker.js",
+      "css/mui.poppicker.css",
+      "css/mui.picker.css",
+      "js/mui.poppicker.js"
+    ],
+    "refer": [
+      "Mine/register-needtem.html"
+    ]
+  },
+  "Mine/changepsd-needtem.html": {
+    "resources": [
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "fonts/iconfont.ttf",
+      "js/load.js",
+      "js/md5.js",
+      "Mine/address-mgr.js",
+      "js/coder.js",
+      "js/units.js",
+      "Mine/change_pwd.js",
+      "fonts/mui.ttf"
+    ]
+  },
+  "Mine/my-account-needtem.html": {
+    "resources": [
+      "css/own.css",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/app.css",
+      "js/own.js",
+      "js/ajax.js",
+      "js/load.js",
+      "js/md5.js",
+      "Mine/myaccount.js",
+      "js/units.js",
+      "img/jump.gif",
+      "js/pay-option.js",
+      "js/coder.js",
+      "js/user_UpGrade.js"
+    ]
+  },
+  "Mine/setting.html": {
+    "resources": [
+      "Mine/js/mui.view.js",
+      "Mine/css/feedback.css",
+      "Mine/js/feedback.js",
+      "Mine/img/logo.png"
+    ]
+  },
+  "Mine/my-vip-needtem.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "js/ajax.js",
+      "js/load.js",
+      "js/units.js",
+      "js/md5.js",
+      "js/page/upGrade.js"
+    ]
+  },
+  "Mine/my-favirate-needtem.html": {
+    "resources": [
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "fonts/iconfont.ttf",
+      "js/load.js",
+      "js/md5.js",
+      "Mine/address-mgr.js",
+      "js/coder.js",
+      "js/units.js",
+      "Mine/favirate-mgr.js",
+      "js/mui.pullToRefresh.js",
+      "js/mui.pullToRefresh.material.js",
+      "js/tab-pull-refresh-item.js",
+      "js/order-unit.js",
+      "Mine/order-list.js",
+      "js/wl_ajax.js",
+      "css/app.css",
+      "js/pay-option.js",
+      "Mine/css/order-list.css",
+      "Mine/css/favirate.css"
+    ]
+  },
+  "Mine/pay-select.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "js/own.js",
+      "js/coder.js",
+      "js/ajax.js",
+      "js/load.js",
+      "js/units.js",
+      "js/md5.js",
+      "js/pay-select.js"
+    ]
+  },
+  "order/order-detail.html": {
+    "resources": [
+      "order/order-confim.js",
+      "js/ajax.js",
+      "fonts/iconfont.ttf",
+      "js/load.js",
+      "js/pay-select.js",
+      "img/50.jpg",
+      "js/md5.js",
+      "js/own.js",
+      "js/coder.js",
+      "order/orderDetail.js",
+      "fonts/mui.ttf",
+      "css/own.css",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/units.js",
+      "js/adress-unit.js",
+      "img/jump.gif",
+      "js/order-unit.js",
+      "js/pay-option.js"
+    ]
+  },
+  "store/store.html": {
+    "resources": [
+      "css/app.css",
+      "img/50.jpg",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "img/cbd.jpg",
+      "img/3.jpg",
+      "js/page/store.js",
+      "js/units.js",
+      "js/own.js",
+      "js/ajax.js",
+      "js/load.js",
+      "js/md5.js",
+      "js/coder.js",
+      "store/store-good-class.html",
+      "css/own.css",
+      "img/slider/slider1.jpg",
+      "img/slider/slider2.jpg",
+      "img/slider/slider3.jpg",
+      "img/slider/slider4.jpg",
+      "js/common_slider.js",
+      "css/good-list.css",
+      "js/tab-pull-refresh-item.js",
+      "js/mui.pullToRefresh.js",
+      "js/mui.pullToRefresh.material.js"
+    ],
+    "refer": [
+      "store/store-good-class.html",
+      "store/store-about.html"
+    ]
+  },
+  "store/store-main.html": {
+    "resources": [
+      "store/store.html",
+      "js/load.js",
+      "js/md5.js",
+      "css/own.css",
+      "js/own.js",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "js/ajax.js"
+    ],
+    "refer": [
+      "store/store.html"
+    ]
+  },
+  "store/store-good-class.html": {
+    "resources": [
+      "js/own.js",
+      "js/coder.js",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "js/load.js",
+      "js/units.js",
+      "js/md5.js",
+      "fonts/mui.ttf",
+      "store/store_about.js",
+      "store/store_good_class.js"
+    ]
+  },
+  "store/store-about.html": {
+    "resources": [
+      "js/own.js",
+      "js/coder.js",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "js/load.js",
+      "js/units.js",
+      "js/md5.js",
+      "css/own.css",
+      "fonts/mui.ttf",
+      "img/50.jpg",
+      "store/store_about.js",
+      "img/cbd.jpg",
+      "store/store-unit.js"
+    ]
+  },
+  "Home/product-detail-tem.html": {
+    "resources": [
+      "Home/product-detail-needtem.html",
+      "img/jump.gif",
+      "css/own.css",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ajax.js",
+      "js/load.js",
+      "js/md5.js",
+      "js/own.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "fonts/iconfont.ttf"
+    ],
+    "refer": [
+      "Home/product-detail-needtem.html"
+    ]
+  }
+}

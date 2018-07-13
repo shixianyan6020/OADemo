@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>店铺</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<!--<link rel="stylesheet" type="text/css" href="../css/app.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="houjie.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/own.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/home.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/good-list.css"/>
+		 <style>
+
+/*店铺名称card*/   
+.store-card-header {
+	/*margin-top: 45px;*/
+	padding: 8% 0px 13% 0px;
+	background: url(../img/cbd.jpg);
+	background-position: center;
+	background-size: 100% auto;
+}
+
+			.mui-control-content {
+				/*height: 350px;*/
+				height: 100%;
+			}
+			
+			.mui-scroll-wrapper{
+				height: 500px;
+			}
+			
+			.mui-search{
+				width: 80%;
+				float: left;
+			}
+			.stroe-type{
+				width: 20%;
+				float: right;
+			}
+
+		</style>
+	</head>
+	<body>
+		<!--<header class="mui-bar mui-bar-nav">
+		<div id="searchBox" class="mui-input-row mui-search">
+			<input type="search" class="mui-input-clear" placeholder="店内搜索">
+		</div>	
+		<span class="mui-icon mui-icon-bars stroe-type"></span>
+		</header>-->
+		<nav class="mui-bar mui-bar-tab">
+			<a id="userClass" href="0" class="mui-tab-item mui-active" >
+				<!--<span class="mui-icon iconfont icon-home"></span>-->
+				<span class="mui-tab-label">宝贝分类</span>
+			</a>
+			<a id="storeInfo"  href="1" class="mui-tab-item" >
+				<!--<span class="mui-icon iconfont icon-fenlei"></span>-->
+				<span class="mui-tab-label">店铺简介</span>
+			</a>
+	
+			<!--<a id="linkStore" class="mui-tab-item" >
+				
+				<span class="mui-tab-label">联系卖家</span>
+			</a>-->
+		</nav>		
+		
+		<div class="mui-content">
+				<div class="card-header store-card-header" >
+					<div id="store_name" style="text-align: center; margin-bottom: 10px;">
+						<img class="mui-media-object mui-pull-left store-logo-img" src="../img/50.jpg">
+						<div class="mui-pull-left">
+							店铺名称
+							<p class='mui-ellipsis'>店铺简介 </p>
+						</div>
+					</div>
+				</div>
+			
+			<div id="segmentedControl" class="mui-segmented-control">
+				<a class="mui-control-item mui-active" href="#storeHome">
+					店铺首页
+				</a>
+				<a class="mui-control-item" href="#allGood">
+					全部商品
+				</a>
+				<a class="mui-control-item" href="#newGood">
+					最新上架
+				</a>
+			<!--<a class="mui-control-item" href="#item4">
+				店铺资讯
+			</a>-->
+			</div>
+			
+			<div>
+				<div id="storeHome" class="mui-control-content mui-active">
+					<div id="scroll1" class="mui-scroll-wrapper"  >
+					<div  class="mui-scroll">
+					
+						<!---------------------------------	此处加载店铺bananer-  代码可清除省略换做js----------------开始---------------	-->
+						<div id="slider" class="mui-slider" >
+							<div class="mui-slider-group mui-slider-loop">
+								<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<a href="#">
+										<img src="../img/slider/slider1.jpg">
+									</a>
+								</div>
+								<!-- 第一张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../img/slider/slider1.jpg">
+									</a>
+								</div>
+								<!-- 第二张 -->
+								<div class="mui-slider-item">
+									<a href="#">
+										<img src="../img/slider/slider2.jpg">
+									</a>
+								</div>
+								<!-- 第三张 -->
+								<!--<div class="mui-slider-item">
+									<a href="#">
+										<img src="../img/slider/slider3.jpg">
+									</a>
+								</div>-->
+								<!-- 第四张 -->
+								<!--<div class="mui-slider-item">
+									<a href="#">
+										<img src="../img/slider/slider4.jpg">
+									</a>
+								</div>-->
+								<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<a href="#">
+										<img src="../img/slider/slider1.jpg">
+									</a>
+								</div>
+							</div>
+							<div class="mui-slider-indicator">
+								<div class="mui-indicator mui-active"></div>
+								<div class="mui-indicator"></div>
+								<div class="mui-indicator"></div>
+								<div class="mui-indicator"></div>
+							</div>
+						</div>	
+						<!--------------------------------	此处店铺楼层商品-  代码可清除省略换做js----------------结束---------------				-->
+						<div id="floors" class="mui-table-view mui-grid-view own-gray-color">
+
+						</div>	
+						
+						<!--<ul class="mui-table-view mui-grid-view">
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>							
+						</ul>-->
+					</div>
+					</div>
+				</div>
+				
+				<div id="allGood" class="mui-control-content ">
+					<div  class="mui-scroll-wrapper " >
+					<div id="scroll2" class="mui-scroll">
+					
+						<ul id="goodList" class="mui-table-view mui-grid-view">
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+				<div id="newGood" class="mui-control-content">
+					<div  class="mui-scroll-wrapper">
+					<div id="scroll3" class="mui-scroll">	
+						<ul class="mui-table-view mui-grid-view">
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称3</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称3</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+						</ul>						
+		    		</div>
+					</div>
+				</div>
+				
+				<div id="item4" class="mui-control-content" >
+					<div id="scroll4" class="mui-scroll-wrapper">
+					<div class="mui-scroll">	
+						<ul class="mui-table-view mui-grid-view">
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称4</div>
+									<p>商品价格</p>
+									
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a >
+									<img class="mui-media-object" src="../img/3.jpg">
+									<div class="mui-media-body">商品名称4</div>
+									<p>商品价格</p>
+								</a>
+							</li>
+						</ul>						
+		    		</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/ajax.js" charset="UTF-8"></script>
+		<script src="../js/own.js" charset="UTF-8"></script>
+		<script  src="../js/units.js" charset="UTF-8"></script>
+		<script  src="../js/coder.js" charset="UTF-8"></script>
+		<script  src="../js/common_slider.js" charset="UTF-8"></script>
+		<script src="../js/tab-pull-refresh-item.js" charset="UTF-8"></script>
+		<script src="../js/mui.pullToRefresh.js"></script>
+		<script src="../js/mui.pullToRefresh.material.js"></script>		
+		<script  src="../js/page/store.js" charset="UTF-8"></script>		
+
+
+	</body>
+
+
+</html>

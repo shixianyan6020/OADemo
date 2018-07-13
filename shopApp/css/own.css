@@ -1,0 +1,70 @@
+
+.own-left-nav-color {
+	color: gray;
+}
+
+.own-main-color {
+	color: #e70f1a;
+}
+
+.own-gray-color {
+	background-color: #EBEBF1;
+}
+
+.own-black-color {
+	color: black;
+}
+.own-text-through {
+	text-decoration: line-through;
+}
+
+.own-main-background-color {
+	background-color: #e70f1a;
+}
+
+.own-header-hidden {
+	display: none!important;
+}
+
+.own-content-padding {
+	padding-top: 0 !important;
+}
+
+.own-btn-green {
+	color: #fff;
+	border: 0px solid #e70f1a;
+	background-color: #e70f1a;
+}
+
+.own-btn-green.mui-active:enabled,
+.own-btn-green:enabled:active {
+	color: #fff;
+	border: 1px solid #e70f1a;
+	background-color: #e70f1a;
+}
+
+.own-font-size {
+	font-size: 1em;
+}
+
+/*店铺相关css*/
+.store-logo-img{
+	
+   background-color: darkgray;
+    width: 2.5em;
+    max-width: 2.5em;
+    height: 2.5em;
+    border:1px solid gray;
+    border-radius: 50%;
+    /*width: 50px;
+    height: 50px;*/
+   }
+   
+/*店铺名称card*/   
+.store-card-header {
+	/*margin-top: 45px;*/
+	padding: 8% 0px 13% 0px;
+	background: url(../img/cbd.jpg);
+	background-position: center;
+	background-size: 100% auto;
+}

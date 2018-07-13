@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/own.css"/>
+		
+		<style type="text/css">
+			.store-base-info p{
+				
+				margin-left: 5px;
+				
+			}
+			
+			/*店铺名称card*/   
+			.store-card-header {
+				/*margin-top: 45px;*/
+				padding: 8% 0px 13% 0px;
+				background: url(../img/cbd.jpg);
+				background-position: center;
+				background-size: 100% auto;
+			}			
+				
+		</style>
+	</head>
+
+	<body>
+	<header class="mui-bar mui-bar-nav ">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left own-left-nav-color"></a>
+		<h1 id="nav-title" class="mui-title">店铺简介</h1>
+	</header>		
+	<div class="mui-content mui-row mui-fullscreen">
+		<div class="card-header store-card-header">
+			<div id="store_name" style="text-align: center; margin-bottom: 10px;">
+				<img class="mui-media-object mui-pull-left store-logo-img" src="../img/50.jpg">
+				<div class="mui-pull-left">
+					
+					<h4>店铺名称 </h4>
+					<p class='mui-ellipsis' >店铺简介 </p>
+				</div>
+			</div>
+		</div>
+			
+	<div class="mui-card">
+	<!--页眉，放置标题-->
+		<div class="mui-card-header">基本信息</div>
+		<!--内容区-->
+		<div id="store_base_div" class="mui-card-content store-base-info">
+			
+			<p >创店时间: </p>
+			<p >所在地区: </p>
+			<p >详细地址: </p>
+			<p >所在地区: </p>			
+			<p >商品数量: </p>
+			<p >店铺收藏: </p>
+			<p >联系电话: </p>
+			<p >店铺QQ: </p>
+		</div>		
+	</div>		
+		
+	<div class="mui-card">
+	<!--页眉，放置标题-->
+		<div class="mui-card-header">动态评价</div>
+		<!--内容区-->
+		<div id="store_evaluate_div" class="mui-card-content store-evaluate-info">
+			
+			<p >描述相符: </p>
+			<p >服务态度: </p>
+			<p >发货速度: </p>
+		</div>		
+	</div>	
+		
+		
+		
+	</div>
+		
+		
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/own.js" charset="UTF-8"></script>
+		<script src="../js/coder.js" charset="UTF-8"></script>
+		<script src="../js/units.js" charset="UTF-8"></script>
+		<script src="../js/ajax.js" charset="UTF-8"></script>	
+		<script src="store-unit.js" charset="UTF-8"></script>
+		<script src="store_about.js" charset="UTF-8"></script>
+	</body>
+
+</html>

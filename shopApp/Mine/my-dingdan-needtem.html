@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>E3父子模版</title>
+    
+    <link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/own.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/app.css" />
+    <link rel="stylesheet" type="text/css" href="css/order-list.css" />
+</head>
+<body>
+<style>
+		.mui-control-content {
+/*		background-color: white;*/
+		min-height: 570px;
+	}
+	
+	.mui-control-content .mui-loading {
+		margin-top: 50px;
+	}
+	
+	.mui-slider .mui-slider-group .mui-slider-item(height: 800px) .mui-table-view .mui-media-object {
+		line-height: 42px;
+		max-width: 20px;
+		height: 20px
+	}
+
+
+	
+	.mui-table-view .mui-media-object {
+		line-height: 42px;
+		max-width: 50px;
+		height: 50px;
+	}
+	
+	.mui-col-xs-4 {
+		width: 25%;
+		}
+		
+			.mui-pull-top-tips {
+				position: absolute;
+				top: -20px;
+				left: 50%;
+				margin-left: -25px;
+				width: 40px;
+				height: 40px;
+				border-radius: 100%;
+				z-index: 1;
+			}
+			.mui-bar~.mui-pull-top-tips {
+				top: 24px;
+			}
+			.mui-pull-top-wrapper {
+				width: 42px;
+				height: 42px;
+				display: block;
+				text-align: center;
+				background-color: #efeff4;
+				border: 1px solid #ddd;
+				border-radius: 25px;
+				background-clip: padding-box;
+				box-shadow: 0 4px 10px #bbb;
+				overflow: hidden;
+			}
+			.mui-pull-top-tips.mui-transitioning {
+				-webkit-transition-duration: 200ms;
+				transition-duration: 200ms;
+			}
+			.mui-pull-top-tips .mui-pull-loading {
+				/*-webkit-backface-visibility: hidden;
+				-webkit-transition-duration: 400ms;
+				transition-duration: 400ms;*/
+				
+				margin: 0;
+			}
+			.mui-pull-top-wrapper .mui-icon,
+			.mui-pull-top-wrapper .mui-spinner {
+				margin-top: 7px;
+			}
+			.mui-pull-top-wrapper .mui-icon.mui-reverse {
+				/*-webkit-transform: rotate(180deg) translateZ(0);*/
+			}
+			.mui-pull-bottom-tips {
+				text-align: center;
+				background-color: #efeff4;
+				font-size: 15px;
+				line-height: 50px;
+				color: #777;
+			}
+			.mui-pull-top-canvas {
+				overflow: hidden;
+				background-color: #fafafa;
+				border-radius: 40px;
+				box-shadow: 0 4px 10px #bbb;
+				width: 40px;
+				height: 40px;
+				margin: 0 auto;
+			}
+			.mui-pull-top-canvas canvas {
+				width: 40px;
+			}
+			.mui-slider-indicator.mui-segmented-control {
+				background-color: #efeff4;
+			}		
+		
+</style>
+	
+<div class="mui-content">
+	
+	<div id="slider" class="mui-slider mui-fullscreen">
+		<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+			<a class="mui-control-item" href="#order_all">
+				全部订单
+			</a>
+			<a class="mui-control-item" href="#order_10">
+				待付款
+			</a>
+			<a class="mui-control-item" href="#order_20">
+				待发货
+			</a>
+			<a class="mui-control-item" href="#order_30">
+				待收货
+			</a>
+		</div>
+		<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+		<div class="mui-slider-group">
+			<div id="order_all" class="mui-slider-item mui-control-content mui-active">
+				<div  class="mui-scroll-wrapper">
+					<div id="scroll1" class="mui-scroll orderBack">
+					<div id="orderList1">
+						
+					</div>
+					</div>
+				</div>
+			</div>
+			<div id="order_10" class="mui-slider-item mui-control-content">
+				<div  class="mui-scroll-wrapper">
+					<div id="scroll2" class="mui-scroll orderBack">
+					<div >
+						
+					</div>						
+					</div>
+				</div>
+			</div>
+			<div id="order_20" class="mui-slider-item mui-control-content ">
+				<div  class="mui-scroll-wrapper">
+					<div id="scroll3" class="mui-scroll orderBack">
+						<div >
+						
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div id="order_30" class="mui-slider-item mui-control-content ">
+				<div  class="mui-scroll-wrapper">
+					<div id="scroll4" class="mui-scroll  orderBack " >
+						<div></div>
+						<!--<div class="orderInfo " >							
+						<ul  class="mui-table-view " >
+							<li class="mui-table-view-cell orderStore"   >
+								<span>
+									<img id ="storeImg" class="mui-media-object mui-pull-left " src="../img/50.jpg">
+									店铺名称
+									<h5 class="orderTip">等待买家付款</h5>
+								</span>
+							</li>
+							<li class="mui-table-view-cell orderGood" >
+								<img class="mui-media-object mui-pull-left" src="../img/50.jpg">
+								<div class="mui-media-body">
+									<p>商品名称</p>
+									<p>颜色分类(对对对)</p>
+									<h4 class="price " >¥:20</h4>
+									<h5 class="saleCount">X1</h5>
+								</div>	
+							</li>		
+							<li class="mui-table-view-cell " >
+									<img class="mui-media-object mui-pull-left" src="../img/50.jpg">
+									<div class="mui-media-body">
+										<p>商品名称</p>
+										<p>颜色分类(对对对)</p>
+										<h4 class="price " >¥:20</h4>
+										<h5 class="saleCount">X1</h5>
+									</div>	
+							</li>
+							<li class="mui-table-view-cell " >
+								<span class="orderTotal" >共1件商品 合计:¥40.00(含运费:¥0.00)</span>
+							</li>		
+							<li class="mui-table-view-cell orderOptionList" >
+								<span>
+									<button type="button" class="mui-btn ">取消订单</button>	
+									<button type="button" class="mui-btn ">查看物流</button>	
+
+									<button type="button" class="mui-btn mui-btn-red orderVipOption" >评价</button>	
+								</span>
+							</li>								
+						</ul>	
+						</div>
+						<div class="orderInfo" >							
+						<ul  class="mui-table-view " >
+							<li class="mui-table-view-cell orderStore"   >
+								<span>
+									<img id ="storeImg" class="mui-media-object mui-pull-left " src="../img/50.jpg">
+									店铺名称
+									<h5 class="orderTip">等待买家付款</h5>
+								</span>
+							</li>
+							<li class="mui-table-view-cell orderGood" >
+								<img class="mui-media-object mui-pull-left" src="../img/50.jpg">
+								<div class="mui-media-body">
+									<p>商品名称</p>
+									<p>颜色分类(对对对)</p>
+									<h4 class="price " >¥:20</h4>
+									<h5 class="saleCount">X1</h5>
+								</div>	
+							</li>		
+							<li class="mui-table-view-cell " >
+									<img class="mui-media-object mui-pull-left" src="../img/50.jpg">
+									<div class="mui-media-body">
+										<p>商品名称</p>
+										<p>颜色分类(对对对)</p>
+										<h4 class="price " >¥:20</h4>
+										<h5 class="saleCount">X1</h5>
+									</div>	
+							</li>
+							<li class="mui-table-view-cell " >
+								<span class="orderTotal" >共1件商品 合计:¥40.00(含运费:¥0.00)</span>
+							</li>		
+							<li class="mui-table-view-cell orderOptionList" >
+								<span>
+									<button type="button" class="mui-btn ">取消订单</button>	
+									<button type="button" class="mui-btn ">查看物流</button>	
+
+									<button type="button" class="mui-btn mui-btn-red defaultOption" >评价</button>	
+								</span>
+							</li>								
+						</ul>	
+						</div>	-->					
+						</div>
+					</div>		
+			
+					</div>
+				</div>
+
+			</div>			
+		</div>
+	</div>
+</div>
+
+	<script src="../js/mui.min.js"></script>
+	<script src="../js/own.js" charset="UTF-8"></script>
+	<script src="../js/coder.js" charset="UTF-8"></script>
+	<script src="../js/wl_ajax.js" charset="UTF-8"></script>
+	<script src="../js/units.js" charset="UTF-8"></script>
+	<script src="../js/pay-option.js" charset="UTF-8"></script>
+	<script src="../js/order-unit.js" charset="UTF-8"></script>
+	<script src="../js/tab-pull-refresh-item.js" charset="UTF-8"></script>
+	<script src="../js/mui.pullToRefresh.js"></script>
+	<script src="../js/mui.pullToRefresh.material.js"></script>
+	<script src="order-list.js" charset="UTF-8"></script>
+
+</body>
+
+</html>

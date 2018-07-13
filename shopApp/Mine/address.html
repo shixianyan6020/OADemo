@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>E3</title>
+    
+    <link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/own.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/mui.picker.min.css"/>
+    
+    <style type="text/css">
+    		.mui-input-row label {
+    			width: 100%;
+    		}
+    </style>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left own-left-nav-color"></a>
+		<h1 class="mui-title own-left-nav-color">设置收货地址</h1>
+		<!--<a class="mui-icon iconfont icon-iconfont53 mui-pull-right own-left-nav-color"></a>-->
+	</header>
+	
+	<div class="mui-content" >
+		<form class="mui-input-group">
+			<div class="mui-input-row">
+				<input type="text" id="trueName" class="mui-input-clear" placeholder="收货人姓名" />
+			</div>
+			<div class="mui-input-row">
+				<input type="text" id="mobile" class="mui-input-clear" placeholder="手机号码" />
+			</div>		
+			<div class="mui-input-row" id="addressPicker">
+				<label>省、市、区</label>
+			</div>
+			<div class="mui-input-row" style="height: 4em; padding-top: 2px;">
+				<textarea id="area_info" placeholder="详细地址"></textarea>
+			</div>
+		</form>
+		
+		<button type="button" id="btnSave" class="mui-btn mui-btn-primary mui-btn-red mui-btn-block" data-loading-text = "提交中" data-loading-icon-position="right">保存</button>
+		
+	</div>
+
+	<script src="../js/mui.min.js" charset="UTF-8"></script>
+	<script src="../js/mui.picker.js"></script>
+	<script src="../js/mui.poppicker.js"></script>
+	<script src="../js/coder.js" charset="UTF-8"></script>
+	<script src="../js/units.js" charset="UTF-8"></script>
+	<script src="../js/ajax.js" charset="UTF-8"></script>	
+	<script src="address.js" charset="UTF-8"></script>	
+</body>
+</html>

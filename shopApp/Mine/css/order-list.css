@@ -1,0 +1,57 @@
+/*订单div*/
+.order {
+	margin-top: 5px;
+}
+/*订单div*/
+.orderBack {
+	background-color: #41CEA9;
+}
+
+/*订单信息*/
+.orderInfo {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*订单店铺*/
+.orderStore {
+	
+}
+
+/*订单商品*/
+.orderGood {
+	
+}
+
+
+/*商品价格*/
+.price {
+	color: red;
+	float: left;
+}
+
+/*商品数量*/
+.saleCount {
+	color: red;
+	float: right;
+}
+/*订单显示状态*/
+.orderTip{
+	float: right;
+	color: red;
+}
+/*订单汇总信息*/
+.orderTotal{
+	float: right;
+}
+
+/*订单操作*/
+.orderOptionList{
+	
+}
+
+/*订单重点操作*/
+.defaultOption{
+	float: right;
+	
+}
